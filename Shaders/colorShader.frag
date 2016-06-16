@@ -1,7 +1,7 @@
-#version 130 
+#version 330
 
 in vec4 col;
-out vec4 color;
+out  vec4 color;
 
 void main(){
 	color = col;

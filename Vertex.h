@@ -1,4 +1,5 @@
 #pragma once
+#include <GL\glew.h>
 
 struct Vertex
 {
@@ -10,9 +11,9 @@ struct Vertex
 
 	struct Color
 	{
-		unsigned int r;
-		unsigned int g;
-		unsigned int b;
-		unsigned int a;
+		GLubyte r;
+		GLubyte g;
+		GLubyte b;
+		GLubyte a;
 	} color;
 };
